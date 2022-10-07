@@ -1,0 +1,119 @@
+ body {
+     background-color: hsl(217, 54%, 11%);
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ .nftcard {
+
+     width: 350px;
+     height: 596px;
+     border-radius: 15px;
+     padding: 24px;
+     background-color: #15263F;
+     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+     /* display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh; */
+ }
+
+ .nftcard img {
+     max-width: 100%;
+     border-radius: 8px;
+ }
+
+ .nftcard h1 {
+     font-family: 'Outfit';
+     font-weight: 600;
+     font-size: 22px;
+     line-height: 28px;
+     color: white;
+ }
+
+ .nftcard p {
+     font-family: 'Outfit';
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 26px;
+     color: #8BACD9;
+ }
+
+
+
+ .svg1 {
+
+     font-family: 'Outfit';
+     height: 115px;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 20px;
+     margin-right: 45%;
+     color: #00FFF8;
+
+
+ }
+
+ .svg2 {
+
+     font-family: 'Outfit';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+
+     color: #8BACD9;
+
+ }
+
+ #rectangle {
+     max-width: 100%;
+     height: 1px;
+     margin-top: 24px;
+     background: #2E405A;
+
+ }
+
+ /* .avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+
+border: 1px solid white;
+margin-top: 16px;
+
+} */
+ .creator {
+     font-family: 'Outfit';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+     padding-top: 22px;
+     color: #8BACD9;
+
+ }
+
+ .name {
+     float: left;
+     font-family: 'Outfit';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+     margin-right: 5px;
+     color: white;
+ }
+
+ .avatar {
+     float: left;
+     width: 33px;
+     height: 33px;
+     border-radius: 50%;
+     border: 1px solid white;
+     margin-top: 16px;
+     margin-right: 16px;
+ }
